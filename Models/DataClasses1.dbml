@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Examing" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-HHC7VLQ;Initial Catalog=Examing;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ExamingConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ExamQuestions" Member="ExamQuestions">
+    <Type Name="ExamQuestion">
+      <Column Name="ExamQuestionsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QOId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CQId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SelectedAnswer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TrueOrFalse" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="CategoryQuestion_ExamQuestion" Member="CategoryQuestion" ThisKey="CQId" OtherKey="CQId" Type="CategoryQuestion" IsForeignKey="true" />
+      <Association Name="QuestionsOpen_ExamQuestion" Member="QuestionsOpen" ThisKey="QOId" OtherKey="QOId" Type="QuestionsOpen" IsForeignKey="true" />
+      <Association Name="QuestionsTest_ExamQuestion" Member="QuestionsTest" ThisKey="QId" OtherKey="QId" Type="QuestionsTest" IsForeignKey="true" />
+      <Association Name="User_ExamQuestion" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" />
+      <Association Name="Exam_ExamQuestion" Member="Exam" ThisKey="ExamId" OtherKey="ExamId" Type="Exam" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Options" Member="Options">
+    <Type Name="Option">
+      <Column Name="OptId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Options" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Association Name="Option_Variant" Member="Variants" ThisKey="OptId" OtherKey="OptId" Type="Variant" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Variants" Member="Variants">
+    <Type Name="Variant">
+      <Column Name="VariantId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VariantText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OptId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Correct" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Association Name="Variant_QuestionsTest" Member="QuestionsTests" ThisKey="VariantId" OtherKey="VariantId" Type="QuestionsTest" />
+      <Association Name="Option_Variant" Member="Option" ThisKey="OptId" OtherKey="OptId" Type="Option" IsForeignKey="true" />
+      <Association Name="QuestionsTest_Variant" Member="QuestionsTest" ThisKey="QId" OtherKey="QId" Type="QuestionsTest" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CategoryQuestions" Member="CategoryQuestions">
+    <Type Name="CategoryQuestion">
+      <Column Name="CQId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CQName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CStatus" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CategoryDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="CategoryQuestion_ExamQuestion" Member="ExamQuestions" ThisKey="CQId" OtherKey="CQId" Type="ExamQuestion" />
+      <Association Name="CategoryQuestion_QuestionsOpen" Member="QuestionsOpens" ThisKey="CQId" OtherKey="CQId" Type="QuestionsOpen" />
+      <Association Name="CategoryQuestion_QuestionsTest" Member="QuestionsTests" ThisKey="CQId" OtherKey="CQId" Type="QuestionsTest" />
+      <Association Name="CategoryQuestion_Exam" Member="Exams" ThisKey="CQId" OtherKey="CQId" Type="Exam" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionsOpen" Member="QuestionsOpens">
+    <Type Name="QuestionsOpen">
+      <Column Name="QOId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QOText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QOStatus" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CQId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AdminConturol" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionsOpen_ExamQuestion" Member="ExamQuestions" ThisKey="QOId" OtherKey="QOId" Type="ExamQuestion" />
+      <Association Name="CategoryQuestion_QuestionsOpen" Member="CategoryQuestion" ThisKey="CQId" OtherKey="CQId" Type="CategoryQuestion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionsTest" Member="QuestionsTests">
+    <Type Name="QuestionsTest">
+      <Column Name="QId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QStatus" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CQId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VariantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AdminConturol" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionsTest_ExamQuestion" Member="ExamQuestions" ThisKey="QId" OtherKey="QId" Type="ExamQuestion" />
+      <Association Name="QuestionsTest_Variant" Member="Variants" ThisKey="QId" OtherKey="QId" Type="Variant" />
+      <Association Name="Variant_QuestionsTest" Member="Variant" ThisKey="VariantId" OtherKey="VariantId" Type="Variant" IsForeignKey="true" />
+      <Association Name="CategoryQuestion_QuestionsTest" Member="CategoryQuestion" ThisKey="CQId" OtherKey="CQId" Type="CategoryQuestion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Loglar" Member="Loglars">
+    <Type Name="Loglar">
+      <Column Name="LogId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LogName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LogDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="UserFullName" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="UserEmail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserRole" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="UserStatus" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserMFenn" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="UserDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserPhoto" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GenderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="User_ExamQuestion" Member="ExamQuestions" ThisKey="UserId" OtherKey="UserId" Type="ExamQuestion" />
+      <Association Name="User_TotalScore" Member="TotalScores" ThisKey="UserId" OtherKey="UserId" Type="TotalScore" />
+      <Association Name="User_Exam" Member="Exams" ThisKey="UserId" OtherKey="UserId" Type="Exam" />
+      <Association Name="Gender_User" Member="Gender" ThisKey="GenderId" OtherKey="GenderId" Type="Gender" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gender" Member="Genders">
+    <Type Name="Gender">
+      <Column Name="GenderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GenderName" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="Gender_User" Member="Users" ThisKey="GenderId" OtherKey="GenderId" Type="User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TotalScore" Member="TotalScores">
+    <Type Name="TotalScore">
+      <Column Name="ScoreId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Score" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ExamId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScorOpen" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TotalScore" Member="TotalScore1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Performance" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Association Name="User_TotalScore" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" />
+      <Association Name="Exam_TotalScore" Member="Exam" ThisKey="ExamId" OtherKey="ExamId" Type="Exam" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Exam" Member="Exams">
+    <Type Name="Exam">
+      <Column Name="ExamId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CQId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserIPd" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Association Name="Exam_ExamQuestion" Member="ExamQuestions" ThisKey="ExamId" OtherKey="ExamId" Type="ExamQuestion" />
+      <Association Name="Exam_TotalScore" Member="TotalScores" ThisKey="ExamId" OtherKey="ExamId" Type="TotalScore" />
+      <Association Name="Exam_OpenQuestionsAnswer" Member="OpenQuestionsAnswers" ThisKey="ExamId" OtherKey="ExamId" Type="OpenQuestionsAnswer" />
+      <Association Name="CategoryQuestion_Exam" Member="CategoryQuestion" ThisKey="CQId" OtherKey="CQId" Type="CategoryQuestion" IsForeignKey="true" />
+      <Association Name="User_Exam" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.student_answer" Member="student_answers">
+    <Type Name="student_answer">
+      <Column Name="QOId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QOText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QOStatus" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CQId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AdminConturol" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OpenAnswerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StudentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OPId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SutudentAnswer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AnswerStatus" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="TeacherId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeacherPoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GiveT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OpenQuestionsAnswer" Member="OpenQuestionsAnswers">
+    <Type Name="OpenQuestionsAnswer">
+      <Column Name="OpenAnswerId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StudentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OPId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SutudentAnswer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AnswerStatus" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="TeacherId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeacherPoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GiveT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Exam_OpenQuestionsAnswer" Member="Exam" ThisKey="ExamId" OtherKey="ExamId" Type="Exam" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.News" Member="News">
+    <Type Name="New">
+      <Column Name="NewsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NewsTitle" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NewsText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NewsPhoto" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="NewsDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

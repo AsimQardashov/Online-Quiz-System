@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "AddNews";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>AddNews</h2>
+
+<form action="~/Admin/AddNews" method="post" enctype="multipart/form-data">
+    <input name="NewsTitle" />
+    <input name="NewsText" />
+    <input name="NewsPhoto" type="file" />
+    <button type="submit">Elave Et</button>
+</form>

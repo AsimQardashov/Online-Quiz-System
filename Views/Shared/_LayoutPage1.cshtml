@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Azerbaijan Technical University</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div id="Logo"><img src="../../../Tasks/bse-homeworks-AlishkaAlpha/assets/images/logo.png" alt=""></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="navbar_nav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="~/Admin/Home">Ana səhifə</a>
+                    </li>
+                    @if (User.IsInRole("T"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Student/CreateExam">Imtahan</a>
+                        </li>
+                    }
+                    @if (User.IsInRole("M"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Teacher/TeacherCheck">Imtahan sualları</a>
+                        </li>
+                    }
+                    @if (User.IsInRole("A"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Admin/AdminConturol">Sualları təstiqlə</a>
+                        </li>
+                    }
+                    @if (User.IsInRole("A") || User.IsInRole("M"))
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Əlavə et
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="~/Admin/AddQuestion">Test sualı</a></li>
+                                <li><a class="dropdown-item" href="~/Admin/AddQuestionOpen">Açıq sualı</a></li>
+                                @if (User.IsInRole("A"))
+                                {
+                                    <li><a class="dropdown-item" href="~/Admin/AddQuestionCategory">Fənn</a></li>
+                                }
+
+                                @if (User.IsInRole("A"))
+                                {
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item dropdown-toggle" id="navbarDrop" role="button" href="#"
+                                           data-bs-toggle="dropdown" aria-expanded="false">İstifadəçi</a>
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDrop">
+                                            <li><a class="dropdown-item" href="~/Admin/AddUser">Müəllim</a></li>
+                                            <li><a class="dropdown-item" href="~/Admin/AddUserT">Tələbə</a></li>
+                                        </ul>
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                    @if (User.IsInRole("A"))
+                    {
+                        <li class="nav-item">
+                            <a href="~/Admin/AdminProfile" class="nav-link">Profilim</a>
+                        </li>
+                    }
+                    @if (User.IsInRole("M"))
+                    {
+                        <li class="nav-item">
+                            <a href="~/Teacher/TeacherProfile" class="nav-link">Profilim</a>
+                        </li>
+                    }
+                    @if (User.IsInRole("T"))
+                    {
+                        <li class="nav-item">
+                            <a href="~/Student/StudentProfle" class="nav-link">Profilim</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a href="~/Admin/Logout" class="nav-link">Çıxış</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div style="">
+        @RenderBody()
+    </div>
+    <footer class="footer text-center text-white">
+        <section class="mb-4 footer-links">
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/pages/Azerbaycan-Texniki-Universiteti/115238788491274" role="button">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/aztueduaz" role="button">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=3f_P7IXzkhg" role="button">
+                <i class="fab fa-google"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/aztu.edu.az/?hl=en" role="button">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://az.linkedin.com/company/azerbaijan-technical-university" role="button">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AsimQardashov" role="button">
+                <i class="fab fa-github"></i>
+            </a>
+        </section>
+        <section class="mb-4">
+            <p class="text-t">
+                Azerbaijan Technical University (AzTU; Azerbaijani: Azərbaycan Texniki Universiteti) is a public university, specialized in engineering, located in Baku, Azerbaijan. The University has 9 schools and 54 departments, 884 faculty members and approximately 6500 students.
+            </p>
+        </section>
+        <section class="">
+            <div class="row Home-page-Footer">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Bizimle Elaqe</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p>Tel: </p><a href="#!" class="text-white"> (+994 12) 538-33-83</a>
+                        </li>
+                        <li>
+                            <p>Fax: </p><a href="#!" class="text-white">(+994 12) 538-32-80</a>
+                        </li>
+                        <li>
+                            <p>Email:</p><a href="#!" class="text-white"> aztu@aztu.edu.az</a>
+                        </li>
+                        <li>
+                            <p>Qaynar xətt:</p><a href="#!" class="text-white">(+994 12) 539-13-05</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Qəbul </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Hazırlıq</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Bakalavr</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Magistr</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Doktrantura</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Bölmələr</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Fakultələr</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Kafedralar</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">TGT</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Xarici Əlaqələr</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">E - SİSTEMLƏR</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Bakalavr Akademik Təhsil</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Magistr Akademik Təhsil</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Distant Təhsil</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">GroupWare</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            2020 © Butun haqlar qorunur
+        </div>
+    </footer>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="~/Content/funk.js"></script>

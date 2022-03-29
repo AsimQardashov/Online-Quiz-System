@@ -1,0 +1,61 @@
+﻿@using ExamingSystem.Models;
+@model IEnumerable<ExamingSystem.Models.student_answer>
+@{
+    ViewBag.Title = "TeacherCheck";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<form action="~/Teacher/TeacherCheck" method="post">
+    <div style="min-height:60vh;" class="imtahan-yoxlanmasi-body">
+        <div class="imtahan-yoxlanmasi-cont ">
+            @foreach (System.Data.DataRow item in ViewBag.a.Rows)
+            {
+                <input type="hidden" name="ExamId[]" value="@item["ExamId"]" />
+                <div class="imtahan-yoxlanmasi-box">
+                    <div class="col-10 col-sm-10 imtahan-yoxlanmasi">
+                        <div class="imtahan-yoxlanmasi-sual row">
+                            <div class="col-2">
+                                <h4>Sual :</h4>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    @item["QOText"]
+                                </p>
+                            </div>
+                        </div>
+                        <input type="hidden" name="OPId[]" value="@item["OPId"]" />
+                        <div class="imtahan-yoxlanmasi-ver-cavab row">
+                            <div class="col-2">
+                                <h4>Verilən Cavab:</h4>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    @item["SutudentAnswer"]
+                                </p>
+                            </div>
+                        </div>
+                        <div class="imtahan-yoxlanmasi-qiymet col-4">
+                            <input type="number" name="TeacherPoint[]" id="">
+                        </div>
+                    </div>
+
+                </div>
+            }
+
+            @if (ViewBag.a.Rows.Count != 0)
+            {
+                <div class="imtahan-yoxlanmasi-button col-1">
+                    <button type="submit" class="btn btn-primary">Təsdiq et</button>
+                </div>
+            }
+            @if (ViewBag.empty != null)
+            {
+                <strong style=" justify-content: center; display: flex; margin-top:50px;">@ViewBag.empty</strong>
+            }
+
+        </div>
+
+    </div>
+</form>
+
+

@@ -1,0 +1,22 @@
+﻿@model ExamingSystem.Models.QuestionCategory
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddQuestionCategory</title>
+</head>
+<body>
+    <div> 
+        <form action="~/Admin/AddQuestionCategory" method="post">
+            <input name="CQName"/>
+            @Html.ValidationMessageFor(model=>model.CQName)
+            <button type="submit">Elave et</button>
+        </form>
+    </div>
+</body>
+</html>

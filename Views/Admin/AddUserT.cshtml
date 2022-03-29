@@ -1,0 +1,288 @@
+﻿@model ExamingSystem.Models.AddUser
+@{
+    ViewBag.Title = "AddUserT";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@*<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../home page/home.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+              integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <title>Admin</title>
+    </head>
+
+    <body>
+        <div id="Main">
+            <div id="middle">
+                <div class="middle">
+                    <div class="Title">
+                        <ul class="breadcrumb">
+                            <li class="bread-first"><a href="AddUserT">Shagirdler </a></li>
+                            <li class="bracket">/</li>
+                            <li class="bread-last"><a href="AddUser">Muellimler</a></li>
+                        </ul>
+                    </div>
+                    <div class="middle1">
+                        <div class="Add">
+                            <button id="Add" type="button" class="btn btn-primary">Elave Et</button>
+                        </div>
+                        <div id="search">
+                            <div id="search_in"><input type="search" placeholder="Ad / Soyad" name="" id=""></div>
+                            <div><i id="search_icon" class="fas fa-search"></i></div>
+                            <div><i id="cancel" class="fas fa-times"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="~/Admin/AddUserT" method="post">
+                <div id="Add-up">
+                    <div class="Add-up">
+                        <div><i id="Add-cancel" class="fas fa-times"></i></div>
+                        <div>
+                            <h2>Ad / Soyad</h2>
+                            <input type="text" class="form-control" placeholder="Ad / Soyad" name="UserFullName">
+                        </div>
+                        <div>
+                            <h2>Itifadeci adi</h2>
+                            <input type="text" class="form-control" placeholder="Enter Fenn" name="UserName" id="">
+                        </div>
+                        <div>
+                            <h2>Email</h2>
+                            <input type="email" class="form-control" placeholder="E-poçt adresi" name="UserEmail" id="">
+
+                        </div>
+                        <div>
+                            <h2>Membership</h2>
+                            <input type="text" class="form-control" placeholder="Sifre" name="UserPassword" id="">
+                        </div>
+                        <div>
+                            <button id="Add_button" type="submit" class="btn btn-primary">Elave Et</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div id="Table">
+                <table class="Table">
+                    <tr>
+                        <th>№</th>
+                        <th>Ad / Soyad</th>
+                        <th>Istifadəçi adı</th>
+                        <th>E-poçt adresi</th>
+                        <th>#</th>
+                    </tr>
+                    <tbody class="tbody">
+                        @{
+                            int i = 0;
+                        }
+                        @foreach (System.Data.DataRow item in ViewBag.Telebe.Rows)
+                        {
+                            i++;
+                            <tr>
+                                <td style="display:none;" class="user-id">@item["UserId"]</td>
+                                <td>@i</td>
+                                <td>@item["UserFullName"]</td>
+                                <td>@item["UserName"]</td>
+                                <td>"@item["UserEmail"]"</td>
+                                <td class="EDİT">
+
+                                    <button id="Edit-pg" type="button" class="btn btn-secondary"><a style="color:white;" href="~/Admin/Edit/@item["UserId"]">Deyis</a></button>
+                                    <button id="Remove" type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <div id="Alert">
+            <div class="Alert">
+                <div class="Exclamation">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <h2>Bunu silmək istədiyinizə əminsiniz ?</h2>
+                <div class="Alert-buttons">
+                    <button type="submit" id="Alert-y" class="btn btn-outline-primary"><a id="deleteput" href="">Beli</a></button>
+                    <button type="button" id="Alert-n" class="btn btn-outline-danger">Xeyr</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"></script>
+    <script src="../../home page/home.js"></script>
+
+    </html>*@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Admin</title>
+</head>
+<body>
+    <div id="Main">
+        <div id="middle">
+            <div class="middle">
+                <div class="Title">
+                    <ul class="breadcrumb">
+                        <li class="bread-first"><a href="AddUserT">Şagirdlər </a></li>
+                        <li class="bracket">/</li>
+                        <li class="bread-last"><a href="AddUser">Müəllimlər</a></li>
+                    </ul>
+                </div>
+                <div class="middle1">
+                    <div id="search">
+                        <div id="search_in">
+                            <input class="search-tr" type="search" placeholder="Ad / Soyad" name="" autocomplete="off" id="">
+                        </div>
+                        <div style="height: 24px;"><i id="search_button" class="fas fa-search"></i></div>
+                        <div><i id="cancel" class="fas fa-times"></i></div>
+                    </div>
+                    <i id="Add" class="fas fa-user-plus"></i>
+
+                </div>
+            </div>
+        </div>
+        <form action="~/Admin/AddUserT" method="post">
+            <div id="Add-up">
+                <div class="Add-up">
+                    <div><i id="Add-cancel" class="fas fa-times"></i></div>
+                    <div class="Add_up">
+                        <div>
+                            <h2>Ad / Soyad</h2>
+                            <input type="text" class="form-control" placeholder="Ad / Soyad daxil edin" name="UserFullName">
+                        </div>
+                        <div>
+                            <h2>İstifadəçi adı</h2>
+                            <input type="text" class="form-control" autocomplete="off" placeholder="İstifadəçi adı daxil edin" name="UserName">
+                        </div>
+                        <div>
+                            <h2>Cins</h2>
+                            <select class="form-control" name="GenderId">
+                                @foreach (System.Data.DataRow item in ViewBag.Gender.Rows)
+                                {
+                                    <option value="@item["GenderId"]">@item["GenderName"]</option>
+                                }
+                            </select>
+                        </div>
+                        <div>
+                            <h2>Email</h2>
+                            <input type="email" class="form-control" placeholder="Email daxil edin" name="UserEmail">
+                        </div>
+                        <div>
+                            <h2>Şifrə</h2>
+                            <input type="password" class="form-control" placeholder="Şifrə daxil edin" name="UserPassword">
+                        </div>
+                    </div>
+                    <div>
+                        <button id="Add_button" type="submit" class="btn btn-primary">Əlavə Et</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div style="min-height:500px;" class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-box clearfix">
+                        <div class="table-responsive">
+                            <table class="table user-list">
+                                <thead>
+                                    <tr>
+                                        <th><span></span></th>
+                                        <th><span>Ad / Soyad</span></th>
+                                        <th><span>Qeydiyyat Tarixi</span></th>
+                                        <th class="text-center"><span>Cins</span></th>
+                                        <th><span>Email</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+
+                                    @foreach (System.Data.DataRow item in ViewBag.Telebe.Rows)
+                                    {
+                                        <tr>
+                                            <td style="display:none;" class="user-id">@item["UserId"]</td>
+                                            <td style="display:flex; justify-content:center">
+                                                <img src="~/Image/@item["UserPhoto"]" style="width:60px; height:50px; border-radius:100%;" />
+                                            </td>
+                                            <td>
+                                                <a href="#" class="user-link">@item["UserFullName"]</a>
+                                                <span class="user-subhead">@item["UserName"]</span>
+                                            </td>
+                                            <td class="Year">
+                                                @item["UserDate"]
+                                            </td>
+                                            <td class="text-center">
+                                                <span class="label label-default">@item["GenderName"]</span>
+                                            </td>
+                                            <td class="Email">
+                                                <a href="#">@item["UserEmail"]</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <div class="icons">
+                                                    <a href="~/Admin/EditT/@item["UserId"]" class="btn btn-info Edit-pg">
+                                                        <i class="fa fa-pencil fa-2x"></i>
+                                                    </a>
+                                                    <a href="#" id="RemoveT" class="btn btn-danger Admin-Remove">
+                                                        <i class="fa fa-trash fa-2x"></i>
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Alert">
+        <div class="Alert">
+            <div class="Exclamation">
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <h2>Bu şəxsi silmək istədiyinizdən əminsinizmi ?</h2>
+            <div class="Alert-buttons">
+                <button type="button" id="Alert-y" class="btn btn-outline-primary"><a id="deleteput" href="">Bəli</a></button>
+                <button type="button" id="Alert-n" class="btn btn-outline-danger">Xeyr</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</html>

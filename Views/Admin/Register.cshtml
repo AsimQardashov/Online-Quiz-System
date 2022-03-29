@@ -1,0 +1,77 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/login.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+        <form action="~/Admin/Register" method="post" enctype="multipart/form-data">
+            <div id="Registration">
+                <div id="Signing_Up">
+                    <h5 id="title">Tələbə kimi qeydiyyatdan keç</h5>
+                    <div id="">
+                        <input type="text" class="form-control a" placeholder="İstifadeçi adı" name="UserFullName">
+                    </div>
+                    <div id="Sign_user">
+                        <input type="text" class="form-control a" placeholder="İstifadeçi adı" id="signer_in" name="UserName">
+                    </div>
+                    <div id="Email">
+                        <input type="text" class="form-control a" placeholder="Email adresi" id="email" name="UserEmail">
+                    </div>
+                    <div id="Profil sekli">
+                        <input type="file" class="form-control a" name="UserPhoto">
+                    </div>
+                    <div id="Cins">
+                        <select class="form-control a" name="GenderId">
+                            @if (ViewBag.User != null)
+                            {
+                                foreach (System.Data.DataRow item in ViewBag.User.Rows)
+                                {
+                                    <option value="@item["GenderId"]">@item["GenderName"]</option>
+                                }
+                            }
+
+                        </select>
+                    </div>
+                    <div id="Sign_pass">
+                        <input type="password" class="form-control a" placeholder="Şifrə" id="sign_pass" name="UserPassword">
+                        <div id="sign_pass_eye"><i id="toggle_eye_sign" onclick="sing_pass_eye(this)" class="far fa-eye"></i></div>
+                    </div>
+                    @*<div id="Re_pass">
+                            <input type="password" class="form-control" placeholder="E-mail adres" id="re_pass" name="UserEmail">
+                            <div id="re_pass_eye"><i id="toggle_eye_re" onclick="re_pass_eye(this)" class="far fa-eye"></i></div>
+                        </div>*@
+                    <input type="hidden" name="UserRole" value="T" />
+                    <input type="hidden" name="UserStatus" value="active" />
+
+                    <div id="sign_button">
+                        <button type="submit" class="btn btn-outline-primary">Qeydiyyatdan keç</button>
+                    </div>
+                </div>
+                @if (ViewBag.already != null)
+                {
+                    <p style="color:red;">@ViewBag.already</p>
+                }
+                <h5 id="account">Artıq hesabınız var?</h5>
+                <div id="LOG_In">
+                    <button type="button" onclick="Account(this)" class="btn btn-outline-warning">Daxil ol</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

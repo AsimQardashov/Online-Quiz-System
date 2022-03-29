@@ -1,0 +1,198 @@
+﻿@model ExamingSystem.Models.QuestionsTest
+@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";}
+
+@*<!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>AddQuestion</title>
+    </head>
+    <body>
+        <div>
+            <form action="~/Admin/AddQuestion" method="post">
+                <select name="CQId">
+                    @foreach (System.Data.DataRow item in ViewBag.categories.Rows)
+                    {
+                        <option value="@item["CQId"]">@item["CQName"]</option>
+                    }
+                </select>
+                <input name="QText" />
+                <input name="VariantText[]" />
+                <input name="VariantText[]" />
+                <input name="VariantText[]" />
+                <input name="VariantText[]" />
+                <input name="VariantText[]" />
+                <input value="1" name="VariantId" type="radio"/>A
+                <input value="2" name="VariantId" type="radio"/>B
+                <input value="3" name="VariantId" type="radio"/>C
+                <input value="4" name="VariantId" type="radio"/>D
+                <input value="5" name="VariantId" type="radio"/>E
+                <button type="submit">Elave et</button>
+            </form>
+        </div>
+    </body>
+    </html>*@
+
+
+<form id="addQ" action="~/Admin/AddQuestion" method="post">
+    <div id="Imtahan_Middle" class="h_100vh">
+
+
+        <div id="imtahan_middle" class="container  align-items-center">
+            <div class="form-group row text-center">
+                <div class="col-sm-3 col-12">
+
+                    <select autocomplete="off" id="inputState" class="form-control" name="CQId">
+                        @foreach (System.Data.DataRow item in ViewBag.categories.Rows)
+                        {
+                            <option value="@item["CQId"]">@item["CQName"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+
+
+            <div class="form-group row text-center sual-bashliq">
+                <div class="col-sm-12 col-12">
+                    <textarea autocomplete="off" class="form-control form-control Sual-bash" id="colFormLabelSm"
+                              placeholder="Sualin bashligi bura yazin!" name="QText"></textarea>
+                </div>
+            </div>
+
+
+            <div class="form-group row text-center sual">
+                <label id="Sual-var" for="colFormLabelSm"
+                       class="col-sm-1 col-1 col-form-label col-form-label-sm">A)</label>
+                <div id="Sual-int" class="col-sm-11 col-11">
+                    <textarea autocomplete="off" class="form-control form-control" id="colFormLabelSm" placeholder="" name="VariantText[]"></textarea>
+                </div>
+            </div>
+
+
+            <div class="form-group row text-center sual">
+                <label id="Sual-var" for="colFormLabelSm"
+                       class="col-sm-1 col-1 col-form-label col-form-label-sm">B)</label>
+                <div id="Sual-int" class="col-sm-11 col-11">
+                    <textarea autocomplete="off" class="form-control form-control" id="colFormLabelSm" placeholder="" name="VariantText[]"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group row text-center sual">
+                <label id="Sual-var" for="colFormLabelSm"
+                       class="col-sm-1 col-1 col-form-label col-form-label-sm">C)</label>
+                <div id="Sual-int" class="col-sm-11 col-11">
+                    <textarea autocomplete="off" class="form-control form-control" id="colFormLabelSm" placeholder="" name="VariantText[]"></textarea>
+                </div>
+            </div>
+
+
+
+            <div class="form-group row text-center sual">
+                <label id="Sual-var" for="colFormLabelSm"
+                       class="col-sm-1 col-1 col-form-label col-form-label-sm">D)</label>
+                <div id="Sual-int" class="col-sm-11 col-11">
+                    <textarea autocomplete="off" class="form-control form-control" id="colFormLabelSm" placeholder="" name="VariantText[]"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group row text-center sual">
+                <label id="Sual-var" for="colFormLabelSm"
+                       class="col-sm-1 col-1 col-form-label col-form-label-sm">E)</label>
+                <div id="Sual-int" class="col-sm-11 col-11">
+                    <textarea autocomplete="off" class="form-control form-control" id="colFormLabelSm" placeholder="" name="VariantText[]"></textarea>
+                </div>
+            </div>
+
+
+            <div class="row form-group text-center flex-nowrap">
+                <div id="Cavab" class="col">
+                    <div class="cavab"><label for="">Cavab</label></div>
+                    <div id="Radios" class="row">
+                        <div class="form-check Add-questions-var">
+                            <input value="1" name="VariantId" autocomplete="off" class="form-check-input" type="radio"
+                                   id="a_a">
+                            <label class="form-check-label" for="a_a">
+                                <div class="Cavab-vars">
+                                    <div class="Circle">
+                                        <div class="Circle-Letters">A</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="form-check Add-questions-var">
+                            <input value="2" name="VariantId" autocomplete="off" class="form-check-input" type="radio"
+                                  id="a_b">
+                            <label class="form-check-label" for="a_b">
+                                <div class="Cavab-vars">
+                                    <div class="Circle">
+                                        <div class="Circle-Letters">B</div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-check Add-questions-var">
+                            <input value="3" name="VariantId" autocomplete="off" class="form-check-input" type="radio"
+                                    id="a_c">
+                            <label class="form-check-label" for="a_c">
+                                <div class="Cavab-vars">
+                                    <div class="Circle">
+                                        <div class="Circle-Letters">C</div>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-c"></i> 
+                            </label>
+                        </div>
+                        <div class="form-check Add-questions-var">
+                            <input value="4" name="VariantId" autocomplete="off" class="form-check-input" type="radio" name="inlineRadioDefault" id="a_d">
+                            <label class="form-check-label" for="a_d">
+                                <div class="Cavab-vars">
+                                    <div class="Circle">
+                                        <div class="Circle-Letters">D</div>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-d"></i>
+                            </label>
+                        </div>
+                        <div class="form-check Add-questions-var">
+                            <input value="5" name="VariantId" autocomplete="off" class="form-check-input" type="radio" name="inlineRadioDefault" id="a_e">
+                            <label class="form-check-label" for="a_e">
+                                <div class="Cavab-vars">
+                                    <div class="Circle">
+                                        <div class="Circle-Letters">E</div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    @if (ViewBag.Error!=null)
+                    {
+                        <p>@ViewBag.Error</p>
+                    }
+                    <span id="a"></span>
+                </div>
+            </div>
+            <div id="Imtahan_Buttons">
+                <button id="Imtahan_Tesdiq" type="submit" class="btn btn-primary">Təsdiq Et</button>
+                <button id="Legv" type="button" class="btn btn-danger">Ləğv Et</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script>
+    $("#Imtahan_Tesdiq").click(function () {
+        var value = 0;
+        if (value == 1) {
+            $("#a").text("Validated...").show();
+            $("#addQ").submit()
+            return;
+        }
+        else {
+            $("#a").text("Not valid!").show().fadeOut(1000);
+        }
+
+        event.preventDefault();
+    });
+</script>

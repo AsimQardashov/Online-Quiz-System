@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/1271452.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Log_In{
+    margin:auto;
+    margin-top: 10%;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: rgba(50, 56, 71, 0.9);
+}
+#Sign_In{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(255, 255, 255 ,0.2); */
+    border-bottom: 1px solid black;
+}
+#title{
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color:white;
+    font-weight: 800;
+}
+#Username{
+    width: 50%;
+}
+#PassWord{
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+}
+#pass_eye{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#User_in{
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#pass_in{
+    height: 45px;
+    border: none;
+    width: 90%;
+}
+#Forgot{
+    margin-top: 30px;
+}
+#log_button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Sign_Up{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Registration{
+    /* display: none; */
+    margin:auto;
+    margin-top: 10%;
+    width: 40%;
+    height: auto;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: rgba(50, 56, 71, 0.9);
+}
+#Signing_Up{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#Sing-name {
+    width: 100%;
+}
+#Sign_user{
+    width: 50%;
+}
+#Email{
+    width: 50%;
+}
+#email{
+    width: 100%;
+    margin-top: 20px;
+    /* height: 40px; */
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+}
+#Sign_pass{
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+}
+#sign_pass{
+    border: none;
+    width: 90%;
+}
+#Re_pass{
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+}
+#re_pass{
+    border: none;
+    width: 90%;
+}
+#sign_pass_eye{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#re_pass_eye{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#sign_button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#account{
+    margin-top: 20px;
+    color:orange;
+    display:flex;
+    justify-content:center;
+}
+#LOG_In{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+}
+#LOG_In button{
+    margin-bottom:3%;
+}
+@media screen and (max-width:767px) {    
+    #Log_In{
+        margin: auto;
+        width: 90%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Sign_In{
+        width: 100%;
+        
+    }
+    #Username{
+        width: 80%;
+    }
+    #PassWord{
+        width: 80%;
+    }
+    #pass_eye{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #Registration{
+        margin: auto;
+        width: 90%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Signing_Up{
+        width: 100%;
+        
+    }
+    #Sign_user{
+        width: 80%;
+    }
+    #Email{
+        width: 80%;
+    }
+    #Sign_pass{
+        width: 80%;
+    }
+    #Re_pass{
+        width: 80%;
+    }
+    #sign_pass_eye{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #re_pass_eye{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #Log_In{
+        margin: auto;
+        width: 70%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Sign_In{
+        width: 100%;
+        
+    }
+    #Username{
+        width: 60%;
+    }
+    #PassWord{
+        width: 60%;
+    }
+    #pass_eye{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}

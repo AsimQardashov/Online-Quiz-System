@@ -1,0 +1,17 @@
+﻿@model ExamingSystem.Models.ExamOpenQuestion
+@{
+    ViewBag.Title = "TeacherCheck";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<form action="~/Admin/TeacherCheck" method="post">
+    @foreach (System.Data.DataRow item in ViewBag.a.Rows)
+    {
+        <input type="hidden" name="ExamId[]" value="@item["ExamId"]"/>
+        <strong>SUAL: @item["QOText"]</strong><br />
+        <input type="hidden" name="OPId[]" value="@item["OPId"]"/>
+        <p>TELEBENIN CAVABI: @item["SutudentAnswer"]</p>
+        <input name="TeacherPoint[]" /><br/>
+    }
+    <button>Testiq et</button>
+</form>
+

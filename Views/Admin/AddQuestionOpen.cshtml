@@ -1,0 +1,67 @@
+﻿@model ExamingSystem.Models.QuestionsOpen
+@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddQUestionOpen</title>
+</head>
+<body>
+    <div>
+        <form action="~/Admin/AddQUestionOpen" method="post">
+            <select name="CQId">
+                @foreach (System.Data.DataRow item in ViewBag.categories.Rows)
+                {
+                    <option value="@item["CQId"]">@item["CQName"]</option>
+                }
+            </select>
+            <input name="QOText" />
+            <button type="submit">Elave et</button>
+        </form><br />
+
+        <div>
+            @foreach (System.Data.DataRow item in ViewBag.OpenQuestions.Rows)
+            {
+                <strong>@item["QOText"]</strong><br />
+            }
+        </div>
+    </div>
+</body>
+</html>*@
+<form action="~/Admin/AddQUestionOpen" method="post">
+
+    <div id="Aciq-sual_Middle" class="aciq-sual_100vh">
+        <div id="aciq-sual_middle" class="container  align-items-center">
+
+
+            <div class="form-group row text-center">
+                <div class="col-sm-3 col-12">
+                    <select autocomplete="off" id="inputState" name="CQId" class="form-control">
+                        <option selected="true" value="" disabled="disabled">Fənn Secin</option>
+                        @foreach (System.Data.DataRow item in ViewBag.categories.Rows)
+                        {
+                            <option value="@item["CQId"]">@item["CQName"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row text-center aciq-sual-bashliq">
+                <div class="col-sm-12 col-12">
+                    <textarea autocomplete="off" name="QOText" class="form-control form-control Aciq-Sual-bash" id="colFormLabelSm"
+                              placeholder="Sualin bashligi bura yazin!"></textarea>
+                </div>
+            </div>
+
+
+            <div id="Aciq-sual_Buttons">
+                <button id="Aciq-sual_Tesdiq" type="submit" class="btn btn-primary">Təsdiq Et</button>
+                <button id="Aciq-sual_Legv" type="button" class="btn btn-danger">Ləğv Et</button>
+            </div>
+        </div>
+    </div>
+</form>

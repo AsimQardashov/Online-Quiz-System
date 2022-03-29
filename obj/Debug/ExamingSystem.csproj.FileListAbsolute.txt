@@ -1,0 +1,360 @@
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\ExamingSystem.dll.config
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\ExamingSystem.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\ExamingSystem.pdb
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csc.exe
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csc.exe.config
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csc.rsp
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csi.exe
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csi.exe.config
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\csi.rsp
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Console.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\vbc.exe
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\vbc.exe.config
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\vbc.rsp
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.CopyComplete
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.dll
+C:\Users\User\source\repos\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.pdb
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\ExamingSystem.dll.config
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\ExamingSystem.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\ExamingSystem.pdb
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csc.exe
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csc.exe.config
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csc.rsp
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csi.exe
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csi.exe.config
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\csi.rsp
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.AppContext.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Console.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.Compression.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Net.Http.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Net.Sockets.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.ValueTuple.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XPath.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\vbc.exe
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\vbc.exe.config
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\vbc.rsp
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\VBCSCompiler.exe
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Helpers.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Mvc.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Razor.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Deployment.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Razor.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Razor.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Deployment.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Webpages.Razor.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Helpers.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\System.Web.Mvc.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.AssemblyReference.cache
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.CoreCompileInputs.cache
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.csproj.CopyComplete
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.dll
+D:\AzTU texnopark(tecrube)\ExamingSystem\ExamingSystem\obj\Debug\ExamingSystem.pdb
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll.config
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.pdb
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe.config
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.rsp
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe.config
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.rsp
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Console.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe.config
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.rsp
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CopyComplete
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.dll
+C:\Users\User\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.pdb
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll.config
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.pdb
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe.config
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.rsp
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe.config
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.rsp
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Console.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe.config
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.rsp
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csprojAssemblyReference.cache
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CopyComplete
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.dll
+C:\Users\LENOVO\Source\Repos\aztu_exam\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.pdb
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll.config
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\ExamingSystem.pdb
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.exe.config
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csc.rsp
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.exe.config
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\csi.rsp
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.AppContext.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Console.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Globalization.Calendars.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Http.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Net.Sockets.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.ValueTuple.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.exe.config
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\vbc.rsp
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Razor.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Deployment.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Webpages.Razor.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Helpers.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\System.Web.Mvc.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.AssemblyReference.cache
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CoreCompileInputs.cache
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.csproj.CopyComplete
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.dll
+E:\AzTU texnopark(tecrube)\ExamingSystem(backUp)\Aztu-Exam(backend)\ExamingSystem\obj\Debug\ExamingSystem.pdb

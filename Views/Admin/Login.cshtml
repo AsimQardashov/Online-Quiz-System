@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <form action="~/Admin/Login" method="post">
+        <div id="Log_In">
+            <div id="Sign_In">
+                <h1 id="title">Daxil olun</h1>
+                <input type="hidden" value="" name="UserId" />
+                <div id="Username">
+                    <input type="text" class="form-control" placeholder="İstifadeçi adı" id="User_in" name="UserName">
+                </div>
+                <div id="PassWord">
+                    <input type="password" class="form-control" placeholder="Şifrə" id="pass_in" name="UserPassword">
+                    <div id="pass_eye"><i id="toggle_eye_log" onclick="pass_eye(this)" class="far fa-eye"></i></div>
+                </div>
+                <div id="Forgot">
+                    <a href="~/Admin/ResetPassword">Şifremi unutdum..</a>
+                </div>
+                <div id="log_button">
+                    <button type="submit" onclick="Log_In(this)" class="btn btn-outline-primary">Daxil ol</button>
+                </div>
+                @if (TempData["error"] != null)
+                {
+                    <p style="color:red;">@TempData["error"]</p>
+                }
+            </div>
+            <div id="Sign_Up">
+                <button type="button" onclick="Register(this)" class="btn btn-outline-warning"><a href="~/Admin/Register">Qeydiyyatdan keç</a></button>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="~/Content/login.js"></script>
+</html>
+

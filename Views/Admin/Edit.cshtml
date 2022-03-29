@@ -1,0 +1,139 @@
+﻿@model ExamingSystem.Models.User
+@{
+    ViewBag.Title = "Edit";
+    Layout = null;
+}
+
+@*<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="~/Content/home.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+              integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <title>Edit</title>
+    </head>
+    <body>
+        <form action="~/Admin/Edit" method="post">
+            <div id="Edit">
+                <div class="edit">
+                    <div><i id="Ed-cancel" class="fas fa-times"></i></div>
+                    <div>
+                        <input type="hidden" value="@Model.UserId" name="UserId" />
+                        <h2>Ad / Soyad</h2>
+                        <input type="text" class="form-control" placeholder="Enter Ad / Soyad" name="UserFullName" value="@Model.UserFullName">
+                    </div>
+                    <div>
+                        <h2>Istifadeci adi</h2>
+                        <input type="text" class="form-control" placeholder="Istifadeci adi</" name="UserName" value="@Model.UserName">
+                    </div>
+                    <div>
+                        <h2>Email</h2>
+                        <input type="email" class="form-control" placeholder="Enter Email" name="UserEmail" value="@Model.UserEmail">
+                    </div>
+                    <div>
+                        <h2>Fenn</h2>
+                        <input type="text" class="form-control" placeholder="Enter Fenn" name="UserMFenn" value="@Model.UserMFenn">
+                    </div>
+                    <div class="Buttons">
+                        <button id="Ed_button" name="" type="submit" class="btn btn-primary">Əlavə Et</button>
+                        <button id="No_button" name="" type="button" class="btn btn-danger">Ləğv Et</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"></script>
+    <script src="../../home page/home.js"></script>
+    </html>*@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="~/Content/home.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Edit</title>
+</head>
+
+<body>
+
+
+
+
+    <form action="~/Admin/Edit" method="post">
+
+        <div id="Edit">
+            <div class="edit">
+                <div><a href="~/Admin/AddUser"><i id="Ed-cancel" class="fas fa-times"></i></a></div>
+                <div class="ed-scroll">
+                    <div>
+                        <input type="hidden" value="@Model.UserId" name="UserId" />
+                        <h2>Ad / Soyad</h2>
+                        <input type="text" class="form-control" placeholder="Ad / Soyad" value="@Model.UserFullName" name="UserFullName">
+                    </div>
+                    <div>
+                        <h2>Istifadəçi adı</h2>
+                        <input type="text" class="form-control" placeholder="Dəvət daxil edin" value="@Model.UserName" name="UserName">
+                    </div>
+                    <div>
+                        <h2>Cins</h2>
+                        <select class="form-control" name="GenderId">
+                            @foreach (System.Data.DataRow item in ViewBag.Gender.Rows)
+                            {
+                                <option value="@item["GenderId"]">@item["GenderName"]</option>
+                            }
+                        </select>
+                    </div>
+                    <div>
+                        <h2>Email</h2>
+                        <input type="email" class="form-control" placeholder="Email daxil edin" name="UserEmail" value="@Model.UserEmail" id="">
+                    </div>
+                    <div>
+                        <h2>Fenn</h2>
+                        <select class="form-control" name="UserMFenn">
+                            @foreach (System.Data.DataRow item in ViewBag.Fenn.Rows)
+                            {
+                                <option value="@item["CQId"]">@item["CQName"]</option>
+                            }
+                        </select>
+                    </div>
+
+                </div>
+                <div class="Buttons">
+                    <button id="Ed_button" name="" type="submit" class="btn btn-primary">Əlavə Et</button>
+                    <button id="No_button" name="" type="button" class="btn btn-danger"><a href="~/Admin/AddUser">Ləğv Et</a></button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="~/Content/home.js"></script>

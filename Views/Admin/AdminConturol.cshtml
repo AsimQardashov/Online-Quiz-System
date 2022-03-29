@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "AdminConturol";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@*<h2>AdminConturol</h2>
+
+    <form action="~/Admin/AdminConturol" method="post">
+        <h1>Aciq Suallar</h1>
+        @foreach (System.Data.DataRow item in ViewBag.ControlOpen.Rows)
+        {
+            <input type="checkbox" name="QOId[]" value="@item["QOId"]" />
+            <strong>@item["QOText"]</strong><br />
+        }
+
+        <h1>Test Suallari</h1>
+        @foreach (System.Data.DataRow item in ViewBag.CountrolTest.Rows)
+        {
+            <input type="checkbox" name="QId[]" value="@item["QId"]" />
+            <strong>@item["QText"]</strong><br />
+        }
+        <button>Testiq et</button>
+    </form>*@
+<form action="~/Admin/AdminConturol" method="post">
+    <div style="min-height:50vh;" class="Admin-control-body container">
+        <div class="Admin-control-cont">
+
+            <div class="Admin-control-box">
+                @foreach (System.Data.DataRow item in ViewBag.ControlOpen.Rows)
+                {
+                    <div class="row Admin-control-boxs">
+                        <div class=" col-sm-1 col-2 Admin-control-check">
+                            <input autocomplete="off" class="form-check-input" type="checkbox" name="QOId[]"
+                                   value="@item["QOId"]" id="box-1-check">
+                        </div>
+                        <div class="Admin-control-text col-10">
+                            <label style="color:black;">
+                                @item["QOText"]
+                            </label>
+                        </div>
+                    </div>
+                }
+
+                @foreach (System.Data.DataRow item in ViewBag.CountrolTest.Rows)
+                {
+                    <div class="row Admin-control-boxs">
+                        <div class=" col-sm-1 col-2 Admin-control-check">
+                            <input autocomplete="off" class="form-check-input" type="checkbox" name="QId[]"
+                                   value="@item["QId"]" id="box-2-check">
+                        </div>
+                        <div class="Admin-control-text col-10">
+                            <label style="color:black;">
+                                @item["QText"]
+                            </label>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        @if (ViewBag.empty != null)
+        {
+            <strong style=" justify-content: center; display: flex; margin-top:50px;">@ViewBag.empty</strong>
+        }
+    </div>
+    @if (ViewBag.ControlOpen.Rows.Count != 0 || ViewBag.CountrolTest.Rows.Count != 0)
+    {
+        <button style="margin:16px 46%;" class="btn btn-primary" type="submit">Təsdiq et</button>
+    }
+</form>

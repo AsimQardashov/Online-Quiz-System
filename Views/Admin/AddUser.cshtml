@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "AddUser";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Admin</title>
+</head>
+
+<body>
+    <div id="Main">
+        <div id="middle">
+            <div class="middle">
+                <div class="Title">
+                    <ul class="breadcrumb">
+                        <li class="bread-first"><a href="AddUser">Müəllimlər </a></li>
+                        <li class="bracket">/</li>
+                        <li class="bread-last"><a href="AddUserT">Şagirdlər</a></li>
+                    </ul>
+                </div>
+                <div class="middle1">
+                    <div id="search">
+                        <div id="search_in">
+                            <input class="search-tr" type="search" placeholder="Ad / Soyad" name="" autocomplete="off" id="">
+                        </div>
+                        <div style="height: 24px;"><i id="search_button" class="fas fa-search"></i></div>
+                        <div><i id="cancel" class="fas fa-times"></i></div>
+                    </div>
+                    <i id="Add" class="fas fa-user-plus"></i>
+
+                </div>
+            </div>
+        </div>
+        <form action="~/Admin/AddUser" method="post" enctype="multipart/form-data">
+            <div id="Add-up">
+                <div class="Add-up">
+
+                    <div><i id="Add-cancel" class="fas fa-times"></i></div>
+                    <div class="Add_up">
+                        <div>
+                            <h2>Ad / Soyad</h2>
+                            <input type="text" class="form-control" placeholder="Ad / Soyad daxil edin" name="UserFullName" id="">
+                        </div>
+                        <div>
+                            <h2>İstifadəçi adı</h2>
+                            <input type="text" class="form-control" placeholder="İstifadəçi adı daxil edin" name="UserName" id="">
+                        </div>
+                        <div>
+                            <h2>Cins</h2>
+                            <select class="form-control" name="GenderId">
+                                @foreach (System.Data.DataRow item in ViewBag.Gender.Rows)
+                                {
+                                    <option value="@item["GenderId"]">@item["GenderName"]</option>
+                                }
+                            </select>
+                        </div>
+                        <div>
+                            <h2>Fənn</h2>
+                            <select class="form-control" name="UserMFenn">
+                                @foreach (System.Data.DataRow item in ViewBag.Fenn.Rows)
+                                {
+                                    <option value="@item["CQId"]">@item["CQName"]</option>
+                                }
+                            </select>
+                        </div>
+                        <div>
+                            <h2>Email</h2>
+                            <input type="email" class="form-control" placeholder="Email daxil edin" name="UserEmail">
+                        </div>
+                        <div>
+                            <h2>Şifrə</h2>
+                            <input type="password" class="form-control" placeholder="Şifrə daxil edin" name="UserPassword">
+                        </div>
+
+                    </div>
+                    <div>
+                        <button id="Add_button" name="" type="submit" class="btn btn-primary">Əlavə Et</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div style="min-height:500px;" class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-box clearfix">
+                        <div class="table-responsive">
+                            <table class="table user-list">
+                                <thead>
+                                    <tr>
+                                        <th><span></span></th>
+                                        <th><span>Ad / Soyad</span></th>
+                                        <th><span>Qeydiyyat Tarixi</span></th>
+                                        <th class="text-center"><span>Fənn</span></th>
+                                        <th><span>Cins</span></th>
+                                        <th><span>Email</span></th>
+
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+                                    @foreach (System.Data.DataRow item in ViewBag.Muellim.Rows)
+                                    {
+                                    <tr>
+                                        <td style="display:none;" class="user-id">@item["UserId"]</td>
+                                        <td style="display:flex; justify-content:center">
+                                            <img src="~/Image/@item["UserPhoto"]" style="width:60px; height:50px; border-radius:100%;" />
+                                        </td>
+                                        <td>
+                                            <a href="#" class="user-link">@item["UserFullName"]</a>
+                                            <span class="user-subhead">@item["UserName"]</span>
+                                        </td>
+
+                                        <td class="Year">
+                                            @item["UserDate"]
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="label label-default">@item["CQName"]</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="label label-default">@item["GenderName"]</span>
+                                        </td>
+                                        <td class="Email">
+                                            <a href="#">@item["UserEmail"]</a>
+                                        </td>
+                                        <td style="width: 20%;">
+                                            <div class="icons">
+                                                <a href="~/Admin/Edit/@item["UserId"]" class="btn btn-info Edit-pg">
+                                                    <i class="fa fa-pencil fa-2x"></i>
+                                                </a>
+                                                <a href="#" id="Remove" class="btn btn-danger Admin-Remove">
+                                                    <i class="fa fa-trash fa-2x"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Alert">
+        <div class="Alert">
+            <div class="Exclamation">
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <h2>Bu şəxsi silmək istədiyinizdən əminsinizmi ?</h2>
+            <div class="Alert-buttons">
+                <button type="submit" id="Alert-y" class="btn btn-outline-primary"><a id="deleteput" href="">Bəli</a></button>
+                <button type="button" id="Alert-n" class="btn btn-outline-danger">Xeyr</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
